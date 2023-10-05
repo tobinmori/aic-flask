@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- font awesome from BootstrapCDN -->
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link href="/public/app.css" rel="stylesheet" />
+  </head>
+  <body class="home">
+    <div class="container">
+      <div class="login-page clearfix">
+        <div class="logged-in-box auth0-box logged-in">
+          <h1 id="logo"><img src="./public/images/pbs.png" /></h1>
+          <img class="avatar" src="{{userinfo['picture']}}" />
+          <h2>Welcome, you've logged in! {{userinfo['name']}}</h2>
+
+          <a href="https://login.publicmediasignin.org/f29e2df8-7cf0-4741-939b-dc9e9555f527/auth-ui/profile?client_id=28af6f9e-5724-45e3-ac43-e8020f541556">Manage my authentication account.</a></br>
+          <a href="./exchange_token">Get a new access token.</a>
+
+          <pre>{{userinfo_pretty}}</pre>
+          <a
+            id="qsLogoutBtn"
+            class="btn btn-primary btn-lg btn-logout btn-block"
+            href="/logout"
+            >Logout</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

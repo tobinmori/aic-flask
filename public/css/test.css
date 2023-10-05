@@ -1,0 +1,159 @@
+screen-heading {
+    margin-top:0;
+    font-size:28px;
+    text-align:center;
+    width:520px
+}
+
+.screen-description {
+    margin-top:0;
+    font-size: 18px;
+    width:520px;
+    text-align:center;
+    margin-bottom:30px
+}
+
+.additional-actions-container {
+    text-align:center;
+    background-color: #2638c4;
+    color: white;
+}
+
+.sign-in-button {
+    height: 77px;
+    border: 0px;
+    color: transparent;
+    background-image: url("https://akamai-sso.s3.amazonaws.com/images/pbs-demo/pbs-signin-button.png");
+}
+
+.footer-container {
+    border-top: none;
+    background-color:#2638c4;
+    color: white;
+}
+
+a.aic-control {
+    text-decoration:none;
+}
+
+.cancel-link {
+    display: block;
+    text-decoration:none
+}
+
+.traditional-signin {
+    position:relative;
+    margin-top:30px;
+    width:520px;
+    font-size: 18px
+}
+
+.forgot-password-link {
+    /*position: absolute;*/
+    position: relative;
+    left: 180px;
+    bottom:0;
+    color:blue;
+    font-size:16px;
+    text-decoration:none
+}
+
+/*
+.social-signin {
+    width:500px
+}
+*/
+
+.alternate-credentials {
+    font-size:18px;
+    margin-bottom:50px;
+    text-align:center
+}
+/*.screen-heading {
+    font-family: "Schoolbell", cursive;
+}
+*/
+.region-global {
+/*background-image: url("../images/bg.jpg");*/
+}
+
+.help-text {
+    color: white;
+    font-size: 14px;
+}
+.help-link {
+    color: white;
+    font-size: 14px;
+}
+.capture_linkHelp {
+    color: white;
+    font-size: 14px;
+}
+.aic-control {
+    color: white;
+    font-size: 14px;
+}
+.content-wrapper {
+    color: white;
+    font-size: 14px;
+}
+.social-login-buttons {
+    border-radius: 25px;
+    background-color:#2638c4;
+}
+.social-provider {
+    border-radius: 5px;
+    background-color:#2638c4;
+}
+
+.button.facebook {
+    border-radius: 5px;
+    
+}
+
+.social-signin{
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+
+}
+.social-login-buttons { /*aggregate button container*/
+    border-radius: 5px;
+    background-color: white;
+    width:400px;
+}
+
+.button.social-provider {
+background-color: white;
+}
+
+.button.social-provider {
+        content: "Joe's Task:";
+}
+
+.alternate-credentials { /*Or. . .*/
+    text-align: center;
+    margin-left: 175px;
+}
+
+#content-wrapper {
+    border-radius: 10px;
+}
+
+form label {
+    color: #2638c4;
+    font-weight: bold;
+}
+label:after { content: ": " }
+
+/* style form textboxes */
+#capture_signIn_signInEmailAddress, #capture_signIn_currentPassword {
+border: 0;
+border-radius: 10px;
+margin: 7.5px auto;
+padding: 7px 15px;
+    padding-top: 7px;
+width: 362px;
+background: #eef0f5;
+font-weight: 300;
+}
